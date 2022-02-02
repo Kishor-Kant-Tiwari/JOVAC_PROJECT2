@@ -51,12 +51,12 @@
 	</header>
 <div class="bg">
 <?php
-$name=$_POST['t1'];
-$pass=$_POST['t2'];
-$email=$_POST['t3'];
-$UR=$_POST['t6'];
-$aoi=$_POST['t4'];
-$date=$_POST['t5'];
+$name=$_GET['t1'];
+$pass=$_GET['t2'];
+$email=$_GET['t3'];
+$UR=$_GET['t6'];
+$aoi=$_GET['t4'];
+$date=$_GET['t5'];
 
 if ($aoi == "None") {
 	echo "Error:Please Choose a One Course<br>";
