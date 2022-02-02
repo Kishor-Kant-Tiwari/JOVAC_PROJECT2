@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(195, 238, 185);;
+}
+.page-container{
+    background: url("https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.head{
+    background-color: seashell;
+    border: 2px solid red;
+    margin: 3px 10px;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+.head img{
+    float: left;
+    width: 125px;
+}
+
+.head h2, h3{
+    color: green;
+    text-align: center;
+    }
+    .head h3{
+        padding: 0px;
+        margin: 5px;
+    }
+    .form-container{
+        background-color: rgb(166, 242, 252);
+        border: 2px solid rgb(8, 4, 44);
+        margin: 51px 309px;
+    }
+    .form-container h2{
+        color: darkblue;
+    }
+.btn{
+    background-color: rgb(137, 252, 92);
+    cursor: pointer;
+    border-radius: 10px;
+}
+#userLogin a{
+    
+
+    text-decoration: none;
+}
+#adminLogin a{
+
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(191, 240, 158);
+    color: red;
+}
+.btn a:hover{
+    color: red;
+}
