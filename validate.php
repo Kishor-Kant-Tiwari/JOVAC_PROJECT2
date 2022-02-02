@@ -83,8 +83,8 @@
 <div class="bg">
 
 <?php
-$email=$_POST['t1'];
-$psw=$_POST['t2'];
+$email=$_GET['t1'];
+$psw=$_GET['t2'];
 $flag=0;
 $s=array();
 $file = fopen("details.txt", 'r');
@@ -124,7 +124,7 @@ while(!feof($file))
 		
 ?>
 
-<form  method="post">
+<form  method="get">
 	
 	<h1 style="text-align: right; color: pink;"><button type="Button" class="logoutlbl"><a href="login.html">Log Out</button></h1></a>
 </form>

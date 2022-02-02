@@ -71,7 +71,7 @@
   </header>
   
   <div class="bg">
-    <form  method="post">
+    <form  method="get">
   
   <h1 style="text-align: right; color: pink;"><button type="Button" class="logoutlbl"><a href="Admin.html">Log Out</button></h1></a>
    

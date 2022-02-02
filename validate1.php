@@ -56,8 +56,8 @@
 
 <div class="bg">
 <?php
-$email=$_POST['t1'];
-$psw=$_POST['t2'];
+$email=$_GET['t1'];
+$psw=$_GET['t2'];
 $flag=0;
 $s=array();
 $file = fopen("admin.txt", 'r');
